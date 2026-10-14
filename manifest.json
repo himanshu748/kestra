@@ -1,0 +1,164 @@
+{
+  "issue": "kestra-io/kestra#4811",
+  "capture_base_commit": "4caa156a807552ebdc128bd433f2db0e7cee0e20",
+  "publication_base_commit": "9b6c7adaea1ce70ddc9f893e0b89d9610a683576",
+  "publication_source_commit": "0582fecd25d57903161ae37df0c613370433c873",
+  "provenance": "Unmodified PNG copies of browser captures of original Gradle HTML reports embedded below an explicitly labelled XML and run-context header.",
+  "timing_series_note": "These separate screenshot runs include recompilation and are excluded from the original three-run timing medians.",
+  "captures": [
+    {
+      "file": "1-before-concurrency.png",
+      "sha256": "4e151433aa9deb0e168dbd1f2f26152de8e0fd98911c838b2a3053619046346b",
+      "phase": "before",
+      "class": "io.kestra.core.services.ConcurrencyLimitServiceTest",
+      "capture_base_commit": "4caa156a807552ebdc128bd433f2db0e7cee0e20",
+      "capture_working_tree_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "command_wall_seconds": "93.180",
+      "junit_xml_suite_seconds": "13.55",
+      "test_counts": {
+        "tests": "4",
+        "failures": "0",
+        "errors": "0",
+        "skipped": "0"
+      },
+      "passed": 4,
+      "test_cases": [
+        {
+          "name": "update(Execution)",
+          "seconds": "3.269",
+          "status": "passed"
+        },
+        {
+          "name": "findById(Execution)",
+          "seconds": "3.159",
+          "status": "passed"
+        },
+        {
+          "name": "list(Execution)",
+          "seconds": "3.155",
+          "status": "passed"
+        },
+        {
+          "name": "unqueueExecution()",
+          "seconds": "3.431",
+          "status": "passed"
+        }
+      ],
+      "original_gradle_html_sha256": "175f4a59e598e98044bdf0dc38686724f22191bb41ad1cfcfe9ef239e688bf60",
+      "original_junit_xml_sha256": "bfd297ec8706e87e1ec06695f2f1d3c6d6b8f97f065c429df79d42de9b26bbc1"
+    },
+    {
+      "file": "1-before-execution-controller.png",
+      "sha256": "786a501a073f47ac90c6a7edbae33f06b9b8a2fb6f0cf6de0544cb6ac4556147",
+      "phase": "before",
+      "class": "io.kestra.webserver.controllers.api.ExecutionControllerRunnerTest",
+      "capture_base_commit": "4caa156a807552ebdc128bd433f2db0e7cee0e20",
+      "capture_working_tree_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "command_wall_seconds": "93.180",
+      "junit_xml_suite_seconds": "17.851",
+      "test_counts": {
+        "tests": "3",
+        "failures": "0",
+        "errors": "0",
+        "skipped": "0"
+      },
+      "passed": 3,
+      "test_cases": [
+        {
+          "name": "shouldReturnBadRequestWhenKillByIdsCalledOnInvalidExecutions()",
+          "seconds": "3.272",
+          "status": "passed"
+        },
+        {
+          "name": "searchExecutions()",
+          "seconds": "2.739",
+          "status": "passed"
+        },
+        {
+          "name": "getExecution()",
+          "seconds": "1.497",
+          "status": "passed"
+        }
+      ],
+      "original_gradle_html_sha256": "129ba9a0419ca8d42495f33931ea47b9eece15b5f94f1934ce3095d2b9653232",
+      "original_junit_xml_sha256": "e26384760378cfa9a404413dcf938d63d7c3b262e62023af44b1aa4924a67a65"
+    },
+    {
+      "file": "2-after-concurrency.png",
+      "sha256": "ade867b7a8937ae5358e0470f96084a5658ae2f9424c38938f68a6485c377a5e",
+      "phase": "after",
+      "class": "io.kestra.core.services.ConcurrencyLimitServiceTest",
+      "capture_base_commit": "4caa156a807552ebdc128bd433f2db0e7cee0e20",
+      "capture_working_tree_diff_sha256": "04e7452866b1e22a5632d0aacae9ad9d416021418419293f48fec177f539e277",
+      "command_wall_seconds": "70.757",
+      "junit_xml_suite_seconds": "4.654",
+      "test_counts": {
+        "tests": "4",
+        "failures": "0",
+        "errors": "0",
+        "skipped": "0"
+      },
+      "passed": 4,
+      "test_cases": [
+        {
+          "name": "update(Execution)",
+          "seconds": "0.376",
+          "status": "passed"
+        },
+        {
+          "name": "findById(Execution)",
+          "seconds": "0.109",
+          "status": "passed"
+        },
+        {
+          "name": "list(Execution)",
+          "seconds": "0.131",
+          "status": "passed"
+        },
+        {
+          "name": "unqueueExecution()",
+          "seconds": "3.411",
+          "status": "passed"
+        }
+      ],
+      "original_gradle_html_sha256": "5ada2070305d9982df04d8245e0c6ac8762c4a25e188ad48c21ad5dfec067cab",
+      "original_junit_xml_sha256": "593e1c98b165a6e5d4331a0e0bb1485b2bb8f43d6a431da9d10cb76334bb50ae"
+    },
+    {
+      "file": "2-after-execution-controller.png",
+      "sha256": "ad2b87fb121b3c1a27eb169a65628d59c936ffe0d25ccdcf85b8d0826ea4e323",
+      "phase": "after",
+      "class": "io.kestra.webserver.controllers.api.ExecutionControllerRunnerTest",
+      "capture_base_commit": "4caa156a807552ebdc128bd433f2db0e7cee0e20",
+      "capture_working_tree_diff_sha256": "04e7452866b1e22a5632d0aacae9ad9d416021418419293f48fec177f539e277",
+      "command_wall_seconds": "70.757",
+      "junit_xml_suite_seconds": "14.693",
+      "test_counts": {
+        "tests": "3",
+        "failures": "0",
+        "errors": "0",
+        "skipped": "0"
+      },
+      "passed": 3,
+      "test_cases": [
+        {
+          "name": "shouldReturnBadRequestWhenKillByIdsCalledOnInvalidExecutions()",
+          "seconds": "3.186",
+          "status": "passed"
+        },
+        {
+          "name": "searchExecutions()",
+          "seconds": "0.673",
+          "status": "passed"
+        },
+        {
+          "name": "getExecution()",
+          "seconds": "0.371",
+          "status": "passed"
+        }
+      ],
+      "original_gradle_html_sha256": "0250a1f26a771ba6a1a44efc2314b5f2fa4310fb30e23196bcde953c398d21d0",
+      "original_junit_xml_sha256": "dda1335440fabee0459fea0c990e452e947a0185d12068cddc54e284522b7acd"
+    }
+  ]
+}
